@@ -1,0 +1,97 @@
+﻿a{
+    color:#4a8a02;
+}
+
+a:hover{
+    color:#342015;
+}
+
+h1 {
+	color:#ffffff;
+}
+
+h2{
+	color:#5c68cc;
+}
+
+h4 {
+	color:#7e1e7f;
+}
+
+.navigation {
+	background:#7e4577 url('../img/layout_reiky/menu_brackground.png') repeat-x left top;
+	border-bottom:6px #c3c3c3 solid;
+}
+
+.appointment_banner{
+	background:transparent url('../img/layout_reiky/appointment_background.png') no-repeat left top;
+}
+
+.page_title{	
+	background:#5f98f2 url('../img/layout_reiky/page_title_background.png') repeat center top;
+}
+
+
+.left_navigation li{
+	background-color:#7e1e7f;
+	background-image:url('../img/layout_reiky/paw.png');
+}
+
+.left_navigation li:hover{
+	background-color:#a14aab;
+	background-image:url('../img/layout_reiky/paw_over.png');
+}
+
+
+.grass{
+	background-image:none;
+	height:29px;
+	
+}
+
+.footer{
+	background:#7e1e7f url('../img/layout_reiky/footer_background.png') repeat-x left top;
+}
+
+.footer h4 {
+	color:#ffffff;
+}
+
+.copyright{
+	background:#2c3790 url('../img/layout_reiky/copyright_background.png') repeat-x left top;
+	color:#ffffff;
+}
+
+.copyright a{
+	color:#eeeeee;
+}
+
+.btn-default{
+   	background: #0489c0 url('../img/layout_reiky/button_background.jpg') repeat-x left top !important;
+	border:1px #04719e solid; 
+	color:#ffffff;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+	color: #ffffff;
+	background-image:none !important;
+	background-color:#05aff5 !important;
+	border:1px #04719e solid; 
+}
+	
+
+.footer_list li{
+	background-color:#973e9f;	
+}
+
+.rates_box strong{
+	background-color:#7e1e7f;
+}
+
+.img_mobile{
+        display:none;
+}

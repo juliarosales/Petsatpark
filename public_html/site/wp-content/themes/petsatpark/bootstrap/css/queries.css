@@ -1,0 +1,127 @@
+﻿@media (max-width: 1024px) {
+
+	.wrap{
+	  width:100%;
+	  padding-left:1em;
+	  padding-right:1em;
+		
+	}
+	
+	.appointment_banner{
+		right:1em;
+	}		
+
+	#mega-menu-wrap-primary {
+		top:6px !important
+	}	
+	
+	.footer	a{
+		color:#ffffff;
+
+	}		
+}
+
+@media (max-width: 768px) {
+
+			
+	.page_title_text{
+		width:400px;
+	}
+ 		
+}
+
+@media (max-width: 640px) {
+
+	body { 
+		text-align:justify;
+	}
+
+	h1 {
+		font-size:28px;	
+		text-align:center;
+		text-transform:uppercase;
+	}
+	
+	h2 {
+		font-size:25px;
+	}
+	
+	h4 {
+		font-size:22px;
+	}
+		
+	h5{
+		font-size:20px;
+	}
+	
+	
+
+	.logo, #footer_logo {
+		float:none;	
+		width:100%;	
+	}
+	
+	.logo img, #footer_logo img{	
+	  display: block;
+	  height: auto;
+	  max-width: 100%;
+	  margin-right: auto;
+	  margin-left: auto;		  
+ 	 }
+ 	 
+	.page_title_image,.rates_box_img, .rates_box a {
+		visibility:collapse;
+		display:none;
+	}
+	
+	.page_title_text, .social_media {
+		width:100%;
+		height:auto;
+		padding-top:1em;
+		margin-left:0;
+		margin-right:0;		
+		float:none;
+	}
+	
+	.social_media img{
+		margin-top:0;
+	}
+	
+	.social_media {
+		padding-top:.5em;	
+		text-align:center;
+	}
+	
+	.shadow{
+		margin:0;
+	}
+	
+	.reiky_box, .intro_box, .testimonial blockquote{
+	   background-image:none;	
+	   padding:.8em;
+	}
+        
+        .contact_box
+        {
+            padding:.8em;
+        }
+
+	.intro_box{
+		border-bottom:0px;
+	}
+	
+	.footer h4{
+		text-align:center;
+		margin-top:20px;
+	}
+
+        .btn_appointment
+        {
+            margin:20px auto;
+        }
+        
+        .img_mobile
+        {
+            display:block!important;
+        }
+}

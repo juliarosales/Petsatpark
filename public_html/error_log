@@ -1,0 +1,1 @@
+[10-May-2016 18:55:25 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in /home/petsatpark12/app/Providers/AppServiceProvider.php on line 29

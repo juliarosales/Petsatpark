@@ -1,0 +1,1 @@
+[13-May-2016 21:02:06 UTC] PHP Parse error:  syntax error, unexpected 'guest' (T_STRING), expecting ',' or ';' in /home/petsatpark12/app/Http/Controllers/Auth/PasswordController.php on line 33

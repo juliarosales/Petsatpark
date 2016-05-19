@@ -1,0 +1,149 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Fresca);
+
+body{
+	background:#dadada;
+	margin:2em 0;
+	padding:0;
+	font-family: Arial,sans-serif;
+ 	font-size: 16px; 
+ 	line-height: 22px; 
+ 	color: #000000;
+	font-weight:normal;
+}
+
+h1 , h2{
+	font-family: 'Fresca', sans-serif ,arial !important;
+}
+
+h1{
+	color:#ffffff;
+	font-size:40px;
+	text-align:center;	
+	font-weight:lighter;	
+}
+
+h2{
+	color:#0b5d8f;
+	font-size:25px;
+	line-height:32px;
+	margin-bottom:30px;
+}
+
+.wrap{
+	position:relative;
+	margin:0 auto;
+	padding:20px 0;
+	width:600px;
+	height:auto;
+	background-color:#ffffff;
+	border-top:2px #4d8314 solid;
+	border-bottom:2px #4d8314 solid;
+	
+}
+
+.navigation, .content, .title, .footer{
+	width: 540px;
+	padding:0  30px;
+}
+
+.navigation	{
+	height:30px;
+}
+.form, .copyright{
+	width:510px;
+	padding:16px 15px;
+}
+
+.content{
+	text-align:center;
+}
+
+.title{
+	height:70px;
+	margin:20px auto 40px auto;
+	background-color:#4d8314;
+	line-height:70px;
+}
+
+.form{
+	position:relative;
+	margin:0 auto 30px auto;
+	height:auto;	
+	background-color:#dddddd;
+}
+
+.text{
+	height: auto;
+}
+
+.textBox{
+	width:100%;
+	margin:10px 0 15px 0 !important;
+	height:33px;
+	line-height:33px;
+}
+
+.button{
+	background-image:none;
+	background-color:#f5f5f5;
+	border:#a4a4a4 1px solid;
+	color:#000000;
+	font-size:13px;
+	float:left;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-border-radius:0;
+	margin:15px 0 0 0;
+	float:left;
+	
+}
+
+.navigation a{
+	position:relative;
+	display:block;
+	width:auto;
+	float:left;
+	height:auto;
+	padding:5px 15px;
+	margin-right:5px;
+	border:0;
+	color: #ffffff;
+	background:#a6a7a7;
+	text-align:center;
+	text-decoration:none;
+}
+
+.navigation a:hover {  
+	background: #787878;
+}
+
+
+.button:hover{
+	background-image:none;
+	background-color:#f5f5f5;
+	border:#a4a4a4 1px solid;
+	color:#000000;	
+}
+
+.greenMessage, .redMessage{
+	margin-bottom:20px;
+	padding-left:7%;
+	width:93%;	
+}
+
+.footer{
+	background-color:#432b1f;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.copyright{
+	background-color:#5b4134;
+	color:#ffffff;
+	font-size: 12px;
+	text-align:center; 
+}
+
+.clear{
+ 	clear:both;
+}

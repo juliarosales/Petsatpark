@@ -1,0 +1,123 @@
+﻿#log,
+#pwd,
+#first_name,
+#last_name,
+#user_email {
+	background-color: #ffffff;
+    border: 1px solid #cccccc;
+	-webkit-border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	border-radius: 5px !important;
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    padding: 6px 12px;
+    width: 50%;
+}	
+
+#wpmem_login, 
+#wpmem_reg{
+	padding:30px;
+	font-size:16px;
+	margin-bottom:30px !important;
+}
+
+#wpmem_login a,
+#wpmem_login a:active,
+#wpmem_login a:visited
+{
+	color:#ffffff;
+	font-weight:bold;
+}
+
+.link-text {
+	margin: 10px 0 10px 0;
+}
+
+#wpmem_login legend,
+#wpmem_reg  legend{
+	display:none;
+	visibility:collapse;
+}
+
+#wpmem_login label, 
+#wpmem_login .div_text,
+#wpmem_reg label, 
+#wpmem_reg .div_text{
+	
+	margin:0 0 10px 0;
+	font-weight:normal;
+}
+
+
+#wpmem_login
+{
+    background: #4D8314;
+    margin-bottom: 5px;
+    min-height: 200px;
+    color:#ffffff;
+}
+
+
+#wpmem_reg
+{
+   background-repeat:no-repeat;
+   background-position:right top;
+   background-image:url('../img/elements/contact_box_background.png');	
+   background-color:#dadada;
+}
+
+#wpmem_reg a,
+#wpmem_reg a:active,
+#wpmem_reg a:visited
+{
+	color:#000000;
+	font-weight:bold;
+}
+
+.frame{
+	background-color:#ffffff;
+	margin:10px 0;
+}
+
+.captcha {
+	background-color:#ffffff;
+	text-align:left;
+	width:350px;
+	overflow:hidden;
+}
+
+.buttons
+{
+	margin-top:10px;
+	background: #f16532 url("../img/layout_default/button_background.jpg") repeat-x scroll left top !important;
+    border: 1px solid #f0622c;
+    color: #ffffff;
+    text-transform: uppercase;
+	display:block;
+	font-size:16px;
+	-webkit-border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	border-radius: 5px !important;
+	padding:8px 20px;	
+}
+
+
+@media (max-width: 768px) {
+
+	#wpmem_reg{
+	   background-image:none;	
+	
+	}
+	
+	#log,
+	#pwd,
+	#first_name,
+	#last_name,
+	#user_email {
+	    width: 100%  !important;
+	}	
+
+ 		
+}
