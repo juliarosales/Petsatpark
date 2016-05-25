@@ -1,0 +1,34 @@
+/*body { 
+			background-image: url(../imagenes/fondo.jpg);
+          background-repeat: no-repeat;
+          background-position: left top, right bottom, 0 0;
+       	-webkit-background-size: cover;
+   		 -moz-background-size: cover;
+    		-o-background-size: cover;
+    		background-size: cover;
+        
+       
+
+}*/
+.cabeza {
+width: 80%;
+margin: auto; 
+ }
+.ventana {
+width: 100%;
+
+margin: auto; 
+ }
+ 
+ #barra{
+
+ 	padding: 10px;
+	color: black;
+    background-color: #A9E2F3;
+    border-color: #A9E2F3;
+ }
+  #separador{
+ 	
+ 	padding: 10px;
+
+ }

@@ -14,12 +14,22 @@
 Route::get('/', function () {
     //return view('welcome2');
     //return Redirect::to('http://www.petsatpark.com/public/login'); 
-    return Redirect::to('login');
+    if (Auth::check()){
+ 		return Redirect::to('/main');
+    }else{
+    	return Redirect::to('login');
+    }
 });
 
 Route::get('appointment', [
 	'uses' => 'AppointmentController@index',
 	'as' => 'appo']);
+
+//Route::resource('login','LoginController');
+
+Route::get('main', [
+	'uses' => 'LoginController@menu',
+	'as' => 'main']);
 
 // Authentication routes...
 Route::get('login', [
@@ -52,3 +62,47 @@ Route::get('password/reset/{token}', [
 	'as' => 'password/reset'
 	]);
 Route::post('password/reset', 'Auth\PasswordController@postReset');
+
+//dashboard
+Route::resource('user-system', 'UserController');
+
+
+/*Route::get('/', function () {
+
+
+ 	if (Auth::check())
+
+      	 return Redirect::to('/principal');
+
+    else
+      
+      	 return view('index');
+   
+
+});
+
+
+Route::resource('login','LoginController');
+
+Route::get('principal','LoginController@menu');
+Route::get('logout', 'LoginController@logout');
+Route::get('masterdata', 'LoginController@masterdata');
+
+
+Route::get('forgotpw', 'LoginController@forgotpw');
+Route::get('create-account', 'UserController@create_account_from_index');
+
+
+Route::post('password/email', 'Auth\PasswordController@postEmail');
+
+
+Route::resource('user-system', 'UserController');
+Route::get('user-system/{id}/delete', 'UserController@destroy');
+
+Route::resource('sales-report', 'ReportController');
+
+Route::get('report-docs', 'ReportController@report_docs');
+
+Route::resource('my-cart', 'CartController');
+
+Route::get('preview-file', 'ReportController@preview_file');*/

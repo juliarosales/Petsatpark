@@ -23,6 +23,13 @@ class AuthController extends Controller
 
     use AuthenticatesAndRegistersUsers, ThrottlesLogins;
 
+/**
+     * Where to redirect users after login / registration.
+     *
+     * @var string
+     */
+    protected $redirectTo = '/';
+
     /**
      * Create a new authentication controller instance.
      *
@@ -63,7 +70,8 @@ class AuthController extends Controller
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
             'phone' => $data['phone'],
-            'role' => 'customer',
+            'role' => '2',
+            'status' => '1',
             'remember_token' => str_random(10),
         ]);
     }
@@ -85,7 +93,8 @@ class AuthController extends Controller
      */
     public function redirectPath()
     {
-       return route('appo');
-    }
+       //return route('appo');
+       return route('main');
+    }    
 
 }

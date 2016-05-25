@@ -1,0 +1,169 @@
+/*--footer--*/
+.panel-bluedark{
+
+	border:1px solid #040B1F;
+	width: 85%; margin: 0 auto;
+}
+
+.panel-bluedark2{
+
+	border:1px solid #040B1F;
+	width: 90%; margin: 0 auto;
+}
+
+
+
+.user_group{
+
+	 height:58px;
+	 position: absolute; 
+	 margin-top: -5px;
+}
+
+
+.divmanagement{
+
+	color: #4a8a02;
+	font-family: "Fresca",sans-serif,arial !important;
+    font-size: 26px;
+	margin-left: 65px; 
+}
+
+.adduser{
+
+height: 40px; 
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+#btnimguser{
+
+	height: 30px;
+	 margin-top: 0px; 
+	 margin-bottom: 10px;
+}
+
+.tablescroll{
+
+	width:auto; 
+	height:800px;
+	 overflow: auto; 
+	 padding:5px; 
+	 margin-bottom: -10px;
+}
+
+.trgreen{
+
+	background-color: #4d8314; 
+	color: white; 
+
+}
+
+.color-red{
+
+	color: red;
+}
+
+.botons-form{
+
+	text-align:  center; 
+	margin-top: 20px;
+}
+
+.color-red-msj{
+	color:#a94442;
+	font-size: 12px; 
+}
+
+
+.btnp-index{
+
+	margin-left: 5px; 
+	margin-right: 5px;
+}
+
+.btnlogin-index{
+
+	 height:35px; 
+	 background-color: #006280;
+	  border-color: #006280; 
+	  margin-left: 10px;
+}
+
+.forgotpw-h{
+
+	margin-left: 5px;
+}
+
+.table-menu-principal{
+
+
+	float:right;
+}
+
+.menu-bgcolor{
+	
+	margin-bottom: 0;  
+	color: #fff; 
+	height: auto;
+}
+
+.space-menu{
+
+	height:500px;
+	width: 90%; margin: 0 auto;
+}
+
+.boton-bluedark{
+
+	background: #e1e1e1 none repeat scroll 0 0;
+    color: #666;
+}
+
+.huge {
+    font-size: 40px;
+}
+
+.panel-title{
+	
+	font-size: 20px;
+}
+
+.boton-bluedark:hover, .boton-bluedark:focus, .boton-bluedark:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.btn-details{
+	background:#8FC453;
+	color: #FFF;
+}
+
+.btn-details:hover, .btn-details:focus, .btn-details:active {   
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    color: #FFF;
+}
+
+
+.height-78{
+
+	height:78px;
+}
+
+.div-menu-admin{
+	width: 90%; margin: 0 auto;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: 15px;
+}
+.row {
+  /*  margin-right: 15px;
+    margin-left: 25px;*/
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}

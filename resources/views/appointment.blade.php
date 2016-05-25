@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layouts.layout')
 
 @section('content')
 <div class="container-fluid">
@@ -12,6 +12,9 @@
 				<!--<span class="label label-warning">
 					<a href="{{ route('logout') }}">LOGOUT</a>
 				</span>-->
+				@if(Session::has('flash_message'))
+					{{Session::get('flash_message')}}
+				@endif
 				</div>
 			</div>
 		</div>
